@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"toukui\startup_stm32f103xb.o"
+"toukui\main.o"
+"toukui\gpio.o"
+"toukui\usart.o"
+"toukui\stm32f1xx_it.o"
+"toukui\stm32f1xx_hal_msp.o"
+"toukui\stm32f1xx_hal_gpio_ex.o"
+"toukui\stm32f1xx_hal_tim.o"
+"toukui\stm32f1xx_hal_tim_ex.o"
+"toukui\stm32f1xx_hal_uart.o"
+"toukui\stm32f1xx_hal.o"
+"toukui\stm32f1xx_hal_rcc.o"
+"toukui\stm32f1xx_hal_rcc_ex.o"
+"toukui\stm32f1xx_hal_gpio.o"
+"toukui\stm32f1xx_hal_dma.o"
+"toukui\stm32f1xx_hal_cortex.o"
+"toukui\stm32f1xx_hal_pwr.o"
+"toukui\stm32f1xx_hal_flash.o"
+"toukui\stm32f1xx_hal_flash_ex.o"
+"toukui\stm32f1xx_hal_exti.o"
+"toukui\system_stm32f1xx.o"
+"toukui\syn6288.o"
+--library_type=microlib --strict --scatter "toukui\toukui.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "toukui.map" -o toukui\toukui.axf
