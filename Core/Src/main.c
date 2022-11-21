@@ -24,6 +24,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "SYN6288.h"
+#include <string.h>
 uint8_t rx[50];
 /* USER CODE END Includes */
 
@@ -91,7 +92,7 @@ int main(void)
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
 	HAL_UART_Receive_IT(&huart1,rx,3);
-	SYN_FrameInfo("[m5][v5][t5]前方有");//成功发送
+//	SYN_FrameInfo("[m5][v5][t5]前方有");//成功发送
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -149,20 +150,22 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
 	if(huart->Instance == USART1)
 	{
-		if(rx[1]==0x0D)//31 0D 0A
+		if(rx[0]==0x0A)//0A
+		{
+			HAL_UART_Transmit(&huart1, "双2\r\n", sizeof("双2\r\n"),10000);
+			HAL_UART_Receive_IT(&huart1, rx, 3);
+			
+		}	
+		else if(rx[1]==0x0D)	//31 0D 0A
 		{
 			HAL_UART_Transmit(&huart1, "单\r\n", sizeof("单\r\n"),10000);
 			HAL_UART_Receive_IT(&huart1, rx, 3);
-		}	
+			
+		}
 		else if(rx[2]==0x0D)	//31 34 0D 0A
 		{
 			HAL_UART_Transmit(&huart1, "双1\r\n", sizeof("双1\r\n"),10000);
 			HAL_UART_Receive_IT(&huart1, rx, 1);
-		}
-		else if(rx[0]==0x0D)	//0A
-		{
-			HAL_UART_Transmit(&huart1, "双2\r\n", sizeof("双2\r\n"),10000);
-			HAL_UART_Receive_IT(&huart1, rx, 3);
 		}
 	}
 }

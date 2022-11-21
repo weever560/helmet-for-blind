@@ -29,3 +29,4 @@ toukui\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 toukui\main.o: ../Core/Inc/usart.h
 toukui\main.o: ../Core/Inc/gpio.h
 toukui\main.o: ../HardWare/SYN6288.h
+toukui\main.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
