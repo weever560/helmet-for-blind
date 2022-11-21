@@ -1,10 +1,10 @@
 Dependencies for Project 'toukui', Target 'toukui': (DO NOT MODIFY !)
 CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
-F (startup_stm32f103xb.s)(0x637B25DB)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list startup_stm32f103xb.lst --xref -o toukui\startup_stm32f103xb.o --depend toukui\startup_stm32f103xb.d)
-F (../Core/Src/main.c)(0x637B32AC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\main.o --omf_browse toukui\main.crf --depend toukui\main.d)
+F (startup_stm32f103xb.s)(0x637B41F6)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list startup_stm32f103xb.lst --xref -o toukui\startup_stm32f103xb.o --depend toukui\startup_stm32f103xb.d)
+F (../Core/Src/main.c)(0x637B896B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\main.o --omf_browse toukui\main.crf --depend toukui\main.d)
 I (../Core/Inc/main.h)(0x637B1249)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -36,7 +36,7 @@ F (../Core/Src/gpio.c)(0x637B1248)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 
 I (../Core/Inc/gpio.h)(0x637B1248)
 I (../Core/Inc/main.h)(0x637B1249)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -60,11 +60,11 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
-F (../Core/Src/usart.c)(0x637B25D7)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\usart.o --omf_browse toukui\usart.crf --depend toukui\usart.d)
+F (../Core/Src/usart.c)(0x637B41F3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\usart.o --omf_browse toukui\usart.crf --depend toukui\usart.d)
 I (../Core/Inc/usart.h)(0x637B1248)
 I (../Core/Inc/main.h)(0x637B1249)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -91,7 +91,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
 F (../Core/Src/stm32f1xx_it.c)(0x637B1248)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\stm32f1xx_it.o --omf_browse toukui\stm32f1xx_it.crf --depend toukui\stm32f1xx_it.d)
 I (../Core/Inc/main.h)(0x637B1249)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -119,7 +119,7 @@ I (../Core/Inc/stm32f1xx_it.h)(0x637B1249)
 F (../Core/Src/stm32f1xx_hal_msp.c)(0x637B1273)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\stm32f1xx_hal_msp.o --omf_browse toukui\stm32f1xx_hal_msp.crf --depend toukui\stm32f1xx_hal_msp.d)
 I (../Core/Inc/main.h)(0x637B1249)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -145,7 +145,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x610B490B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\stm32f1xx_hal_gpio_ex.o --omf_browse toukui\stm32f1xx_hal_gpio_ex.crf --depend toukui\stm32f1xx_hal_gpio_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -171,7 +171,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x610B490B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\stm32f1xx_hal_tim.o --omf_browse toukui\stm32f1xx_hal_tim.crf --depend toukui\stm32f1xx_hal_tim.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -197,7 +197,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x610B490B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\stm32f1xx_hal_tim_ex.o --omf_browse toukui\stm32f1xx_hal_tim_ex.crf --depend toukui\stm32f1xx_hal_tim_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -223,7 +223,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x610B490B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\stm32f1xx_hal_uart.o --omf_browse toukui\stm32f1xx_hal_uart.crf --depend toukui\stm32f1xx_hal_uart.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -249,7 +249,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x610B490B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\stm32f1xx_hal.o --omf_browse toukui\stm32f1xx_hal.crf --depend toukui\stm32f1xx_hal.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -275,7 +275,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x610B490B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\stm32f1xx_hal_rcc.o --omf_browse toukui\stm32f1xx_hal_rcc.crf --depend toukui\stm32f1xx_hal_rcc.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -301,7 +301,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x610B490B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\stm32f1xx_hal_rcc_ex.o --omf_browse toukui\stm32f1xx_hal_rcc_ex.crf --depend toukui\stm32f1xx_hal_rcc_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -327,7 +327,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x610B490B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\stm32f1xx_hal_gpio.o --omf_browse toukui\stm32f1xx_hal_gpio.crf --depend toukui\stm32f1xx_hal_gpio.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -353,7 +353,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x610B490B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\stm32f1xx_hal_dma.o --omf_browse toukui\stm32f1xx_hal_dma.crf --depend toukui\stm32f1xx_hal_dma.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -379,7 +379,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x610B490B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\stm32f1xx_hal_cortex.o --omf_browse toukui\stm32f1xx_hal_cortex.crf --depend toukui\stm32f1xx_hal_cortex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -405,7 +405,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x610B490B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\stm32f1xx_hal_pwr.o --omf_browse toukui\stm32f1xx_hal_pwr.crf --depend toukui\stm32f1xx_hal_pwr.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -431,7 +431,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x610B490B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\stm32f1xx_hal_flash.o --omf_browse toukui\stm32f1xx_hal_flash.crf --depend toukui\stm32f1xx_hal_flash.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -457,7 +457,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x610B490B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\stm32f1xx_hal_flash_ex.o --omf_browse toukui\stm32f1xx_hal_flash_ex.crf --depend toukui\stm32f1xx_hal_flash_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -483,7 +483,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x610B490B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\stm32f1xx_hal_exti.o --omf_browse toukui\stm32f1xx_hal_exti.crf --depend toukui\stm32f1xx_hal_exti.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
@@ -517,7 +517,7 @@ I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x610B48FE)
 I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x610B48FE)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x610B490B)
@@ -533,11 +533,11 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x610B490B)
-F (..\HardWare\SYN6288.c)(0x637B25F4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\syn6288.o --omf_browse toukui\syn6288.crf --depend toukui\syn6288.d)
+F (..\HardWare\SYN6288.c)(0x637B66F7)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../HardWare-I.\RTE\_toukui-ID:\MDK\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o toukui\syn6288.o --omf_browse toukui\syn6288.crf --depend toukui\syn6288.d)
 I (..\HardWare\syn6288.h)(0x62E0F326)
 I (../Core/Inc/main.h)(0x637B1249)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x610B490B)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B25D8)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x637B41F3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x610B490B)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x610B490B)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x610B490B)
